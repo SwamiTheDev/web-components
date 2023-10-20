@@ -17,7 +17,7 @@
 - Download or clone the repository
 
 ```
-git clone https://github.com/Ayushparikh-code/Web-dev-mini-projects.git
+git clone  https://github.com/SwamiTheDev/web-components.git
 ```
 
 - Go to the directory
