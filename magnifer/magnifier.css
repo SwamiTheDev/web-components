@@ -1,6 +1,7 @@
 .magnify {
     position: relative;
     width: 600px;
+    cursor: pointer;
     max-width: 100%;
 }
 
