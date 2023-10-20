@@ -1,0 +1,14 @@
+.btn-outline-info{
+    font-size: 13px !important;
+    font-weight:600 !important;
+    font-family: monospace !important;
+}
+.__project_title{
+    border-bottom: 2px double black;
+    padding-bottom: 7px;
+    display: inline;
+    
+}
+.row{
+    font-family: monospace; 
+}
