@@ -12,3 +12,8 @@
 .row{
     font-family: monospace; 
 }
+.card-img-top{
+    height: 140px;
+    border-radius:10px !important ;
+     
+}
