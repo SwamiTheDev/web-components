@@ -17,3 +17,26 @@
     border-radius:10px !important ;
      
 }
+.card-text{
+    font-size: 14px;
+}
+.card{
+    width:90% !important;
+    border: none !important;
+    /* box-shadow: 3px 3px 13px gray; */
+    background-color: aliceblue !important;
+    padding-bottom: 8px !important;
+}
+
+@media only screen and (max-width: 600px){
+    .row{
+        width: 100%;
+
+    }
+    .card-img-top{
+        height: 180px;
+    }
+    .__button_group{
+        text-align: center;
+    }
+}
