@@ -35,7 +35,7 @@ To get started with these web components, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone [https://github.com/YourUsername/web-components.git](https://github.com/SwamiTheDev/web-components.git)
+   git clone https://github.com/SwamiTheDev/web-components.git
    ```
 
 2. Explore the components in the repository, and use the provided documentation to understand how to integrate them into your projects.
