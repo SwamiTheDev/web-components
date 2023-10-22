@@ -14,17 +14,7 @@ Welcome to the Web Components repository! 🚀
 - Learning resources and documentation
 - Ideal for educational purposes
 
-## Available Web Components
-
-1. **Component 1:** [Link to Component 1]
-   - Description and usage instructions for Component 1.
-
-2. **Component 2:** [Link to Component 2]
-   - Description and usage instructions for Component 2.
-
-3. **Component 3:** [Link to Component 3]
-   - Description and usage instructions for Component 3.
-
+ 
 Feel free to explore and use these components to enhance your web development skills.
 
 ## How to Contribute
@@ -45,7 +35,7 @@ To get started with these web components, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/YourUsername/web-components.git
+   git clone [https://github.com/YourUsername/web-components.git](https://github.com/SwamiTheDev/web-components.git)
    ```
 
 2. Explore the components in the repository, and use the provided documentation to understand how to integrate them into your projects.
