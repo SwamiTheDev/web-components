@@ -28,7 +28,7 @@ body{
     width:90% !important;
     border: none !important;
     /* box-shadow: 3px 3px 13px gray; */
-    background-color: aliceblue !important;
+    /* background-color: aliceblue !important; */
     padding-bottom: 8px !important;
 }
 
@@ -40,7 +40,16 @@ body{
     .card-img-top{
         height: 180px;
     }
+    .card{
+        width: 100% !important;;
+        background-color: #f8f9fa !important;
+        /* background-color: aquamarine !important; */
+        margin: auto !important;
+    }
     .__button_group{
         text-align: center;
+    }
+    .btn{
+     font-size: 17px !important;   
     }
 }
