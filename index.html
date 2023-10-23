@@ -11,6 +11,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -18,11 +23,11 @@
 </head>
 
 <body>
-
     <header>
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Front End Components</a>
+            <div class="container ">
+                <a class="navbar-brand" href="#">Front End Projects</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +41,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Link</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown
@@ -49,31 +54,30 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
+                        </li> -->
+
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                            id="search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
             </div>
         </nav>
+
     </header>
     <div class="container">
 
-        <div class="row">
-
+        <div class="row" id="myDIV">
 
             <!-- 1. Maginifier -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%">
+                <div class="card bg-light">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">13 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">magnifer</h5>
+                        <h5 class="card-title text-uppercase">magnifer</h5>
                         <p class="card-text ">
                             This project aims to create a tool for enlarging and enhancing images for
                             improved
@@ -81,12 +85,11 @@
                         </p>
                         <img src="./magnifer/image/magnifier-cover-image.jpg" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3">
-                            <a type="button" href="./magnifer/index.html" target="_blank" name="" id=""
-                                class="btn btn-outline-info">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
+                            <a type="button" href="./magnifer/index.html" target="_blank" name="" id="" class="btn  ">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button" href="https://github.com/SwamiTheDev/web-components/tree/main/magnifer"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -97,10 +100,10 @@
             <!-- 2. Instagram Login page -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">13 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Instagram login page</h5>
+                        <h5 class="card-title text-uppercase">Instagram login page</h5>
                         <p class="card-text ">
                             Create a replica of the Instagram login page as a project to practice web
                             development
@@ -109,13 +112,13 @@
                         </p>
                         <img src="./Instagram Login Page/image/beautiful-gradient-instagram-logo-opw57zb17uw8df74.jpg"
                             class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Instagram Login Page/Index.html" target="_blank" name="" id=""
-                                class="btn btn-outline-info">
+                                class="btn  ">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Instagram%20Login%20Page"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -126,22 +129,22 @@
             <!-- 3.Youtube logo  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">14 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Youtube Logo</h5>
+                        <h5 class="card-title text-uppercase">Youtube Logo</h5>
                         <p class="card-text ">
                             Create a YouTube logo using CSS for a visually appealing branding element and
                             dynamic digital representation
                         </p>
                         <img src="./Youtube Logo/youtube-cover-img.avif" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 mt-3">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Youtube Logo/index.html" target="_blank" name="" id=""
-                                class="btn btn-outline-info ">
-                                Preview<i class="fa-solid fa-up-right-from-square ms-2 ms-3"></i></a>
+                                class="btn   ">
+                                Preview<i class="fa-solid fa-up-right-from-square ms-2 "></i></a>
                             <a type="button" href="https://github.com/SwamiTheDev/web-components/tree/main/Youtube-Logo"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -152,22 +155,22 @@
             <!-- 4.Relaxer App  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">13 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">relaxer app</h5>
+                        <h5 class="card-title text-uppercase">relaxer app</h5>
                         <p class="card-text ">
                             It guide practice to deep breathing and relaxation techniques for
                             stress relief and mental well-being
                         </p>
                         <img src="./Relaxer App/relaxer-cover-img.jpeg" class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Relaxer App/index.html" target="_blank" name="" id=""
-                                class="btn btn-outline-info __button_group">
+                                class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Relaxer%20App"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -178,24 +181,23 @@
             <!-- 5.Bouncing balls  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">15 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Bouncing Balls</h5>
+                        <h5 class="card-title text-uppercase">Bouncing Balls</h5>
                         <p class="card-text ">
                             Create an engaging background animation and using JavaScript and responsive visual
-                            element
-                            to your project
+                            element.
                         </p>
                         <img src="./bouncing balls/img/bouncing ball cover img.jpeg" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./bouncing balls/index.html" target="_blank" name="" id=""
-                                class="btn btn-outline-info __button_group">
+                                class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/bouncing-balls"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -206,23 +208,23 @@
             <!-- 6. Birthday ballons  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">16 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Background Ballons</h5>
+                        <h5 class="card-title text-uppercase">Background Ballons</h5>
                         <p class="card-text ">
                             Create a captivating and responsive birthday balloons background animation using
                             JavaScript
                         </p>
                         <img src="./background ballons/image/birthday ballons cover img.jpeg"
                             class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class=" d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./background ballons/index.html" target="_blank" name="" id=""
-                                class="btn btn-outline-info __button_group">
+                                class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/birthday-ballons"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -232,23 +234,23 @@
             <!-- 7. Chrome logo  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">15 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Chrome Logo</h5>
+                        <h5 class="card-title text-uppercase">Chrome Logo</h5>
                         <p class="card-text ">
                             The project aims to create the Chrome logo using CSS for a visually appealing and
                             browser-themed design
                         </p>
                         <img src="./chrome logo/img/Screenshot 2023-10-21 193035.png" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./chrome logo-using-css/index.html" target="_blank" name="" id=""
-                                class="btn btn-outline-info __button_group">
+                                class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/chrome-logo-using-css"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -258,10 +260,10 @@
             <!-- 8. Facebook logo  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">16 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">facebook Logo</h5>
+                        <h5 class="card-title text-uppercase">facebook Logo</h5>
                         <p class="card-text ">
                             The project aims to design the Facebook logo using CSS for a visually appealing and
                             scalable
@@ -269,13 +271,13 @@
                         </p>
                         <img src="./facebook logo/img/facebook-cover-img.jpg" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./facebook logo/index.html" target="_blank" name="" id=""
-                                class="btn btn-outline-info __button_group">
+                                class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/facebook-logo"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -285,10 +287,10 @@
             <!-- 9. virtual keyboard  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">16 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">virtual keyboard</h5>
+                        <h5 class="card-title text-uppercase">virtual keyboard</h5>
                         <p class="card-text">
                             Creating a virtual keyboard project for enhanced user input and accessibility using
                             HTML,
@@ -296,13 +298,13 @@
                         </p>
                         <img src="./Virtual Keyboard/img/keyboard cover img.jpg" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Virtual Keyboard/index.html" target="_blank" name="" id=""
-                                class="btn btn-outline-info __button_group">
+                                class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Virtual%20Keyboard"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -312,22 +314,22 @@
             <!-- 10.  calculator  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">18 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Calculator</h5>
+                        <h5 class="card-title text-uppercase">Calculator</h5>
                         <p class="card-text">
                             Create a sleek calculator with a modern neumorphic design using CSS to enhance user
-                            experience and aesthetics
+                            experience.
                         </p>
                         <img src="./Calculator/img/business-calculators.avif" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Calculator/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button" href="https://github.com/SwamiTheDev/web-components/tree/main/Calculator "
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -337,23 +339,23 @@
             <!-- 11.  Battery Indicator  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">16 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Battery Indicator</h5>
+                        <h5 class="card-title text-uppercase">Battery Indicator</h5>
                         <p class="card-text">
                             This project created by HTML, CSS, and JavaScript to display your device's
                             current battery level visually.
                         </p>
                         <img src="./Battery Indicator/img/mobile-apps-battery-status.avif" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Battery Indicator/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Battery%20Indicator"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -363,10 +365,10 @@
             <!-- 12. form  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">19 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Form Validation
+                        <h5 class="card-title text-uppercase">Form Validation
                         </h5>
                         <p class="card-text">
                             Create a form validation project using JavaScript to enhance user data input
@@ -375,12 +377,12 @@
                             reliability.
                         </p>
                         <img src="./Form/img/form cover img.png" class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Form/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button" href="https://github.com/SwamiTheDev/web-components/tree/main/Form"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -390,22 +392,22 @@
             <!-- 13. Loader  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">19 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Loader
+                        <h5 class="card-title text-uppercase">Loader
                         </h5>
                         <p class="card-text">
                             Create a custom pre-loader using CSS to enhance website loading aesthetics and user
                             experience
                         </p>
                         <img src="./Loader/img/cover img.png" class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Loader/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button" href="https://github.com/SwamiTheDev/web-components/tree/main/Loader"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -415,10 +417,10 @@
             <!-- 14. Neon Effect  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">20 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Neon Effecct
+                        <h5 class="card-title text-uppercase">Neon Effecct
                         </h5>
                         <p class="card-text">
                             Create a captivating project titled 'Neon Effect' to display social icons with
@@ -428,13 +430,13 @@
                         </p>
                         <img src="./Neon Effect/image/set-of-social-media-icon-in-round-bakground-free-vector.jpg"
                             class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Neon Effect/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Neon%20Effect"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -444,23 +446,23 @@
             <!-- 15. Color change  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">20 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Color Change
+                        <h5 class="card-title text-uppercase">Color Change
                         </h5>
                         <p class="card-text">
                             It aims to display various color buttons that you clicked, dynamically change the
                             box bg to the selected color.
                         </p>
                         <img src="./Color Change/images/hq720.jpg" class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Color Change/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Color%20Change"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -470,7 +472,7 @@
             <!-- 16. Check Internet connection  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">20 Oct</p>
                         <h5 class="card-title mt-4 text-uppercase">Check Internet
@@ -480,13 +482,13 @@
                             connectivity status on a user's device.
                         </p>
                         <img src="./Check Internet/img/cover img.webp" class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Check Internet/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Check%20Internet"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -496,10 +498,10 @@
             <!-- 17. Contact Form  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">19 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Contact Form
+                        <h5 class="card-title text-uppercase">Contact Form
                         </h5>
                         <p class="card-text">
                             Create an impressive and responsive contact form with captivating UI animations in
@@ -508,13 +510,13 @@
                         </p>
                         <img src="./Contact Form/img/contact form cover img.png" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Contact Form/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Contact%20Form"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -524,10 +526,10 @@
             <!-- 18. Flying Animation  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">19 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Flying Animation
+                        <h5 class="card-title text-uppercase">Flying Animation
                         </h5>
                         <p class="card-text">
                             Explore captivating bird flying animation in
@@ -535,13 +537,13 @@
                         </p>
                         <img src="./Flying Animation/Images/istockphoto-1296015394-640x640.jpg"
                             class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Flying Animation/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Flying%20Animation"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -551,52 +553,51 @@
             <!-- 19. Twitter Logo  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">20 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase">Twitter Logo
+                        <h5 class="card-title text-uppercase">Twitter Logo
                         </h5>
                         <p class="card-text">
                             To recreate the iconic Twitter logo using CSS, achieving a visually
-                            appealing and accurate representation
+                            appealing.
                         </p>
                         <img src="./Twitter Logo/img/45562-88680-211109-Twitter-xl.jpg" class="card-img-top d-block"
                             alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Twitter Logo/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Twitter%20Logo"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
 
-
             <!-- 20. Random Background color  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">22 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase"> Background color
+                        <h5 class="card-title text-uppercase"> Background color
                         </h5>
                         <p class="card-text">
                             To recreate the iconic Twitter logo using CSS, achieving a visually
-                            appealing and accurate representation
+                            appealing.
                         </p>
                         <img src="./Random Background color/multicolor-low-poly-background-design-Graphics-9553638-1-580x387.jpg"
                             class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Random Background color/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn   __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Random%20Background%20color"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn  ">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
@@ -606,29 +607,29 @@
             <!-- 21. Review Card  -->
 
             <div class="col-12 col-sm-12 col-md-5 col-lg-3 col-xl-3 mt-3">
-                <div class="card" style="width: 100%; ">
+                <div class="card bg-light" style="width: 100%; ">
                     <div class="card-body">
                         <p class="__project_title text-uppercase">22 Oct</p>
-                        <h5 class="card-title mt-4 text-uppercase"> Review Card
+                        <h5 class="card-title text-uppercase"> Review Card
                         </h5>
                         <p class="card-text">
-                            To display user reviews using the Swiper.js library, providing an engaging and interactive
+                            To display user reviews using the Swiper.js library, providing an engaging and
+                            interactive
                             user experience with a sleek UI
                         </p>
                         <img src="./Review Card/img/day_1341.png" class="card-img-top d-block" alt="bg-missing" />
-                        <div class=" d-block gap-5 ms-1 mt-3 __button_group">
+                        <div class="d-flex justify-content-center gap-2 mt-3">
                             <a type="button" href="./Review Card/index.html
-                            " target="_blank" name="" id="" class="btn btn-outline-info __button_group">
+                            " target="_blank" name="" id="" class="btn btn-outline-dark __button_group">
                                 Preview<i class="fa-solid fa-up-right-from-square ms-2"></i></a>
                             <a type="button"
                                 href="https://github.com/SwamiTheDev/web-components/tree/main/Review%20Card"
-                                target="_blank" name="" id="" class="ms-1 btn btn-outline-info">Source code <i
+                                target="_blank" name="" id="" class="ms-1 btn btn-outline-dark">Source code <i
                                     class="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-
 
         </div>
     </div>
@@ -646,6 +647,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#search").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $(".card-title *").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>
+
 </body>
 
 </html>
