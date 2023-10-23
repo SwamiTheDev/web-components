@@ -9,17 +9,17 @@ body{
     color: #8f8e8e;
 }
 .btn{
-    background-color: #caebf2 !important;
-    color: rgb(74, 69, 69) !important;
+  color: #EFEFEF !important;
+    background-color: #72d8ef !important;
+
     font-size: 13px !important;
-    font-weight:600 !important;
+    /* font-weight:600 !important; */
 }
 .btn:hover{
     transition: 1s;
-    background-color: #87dcef !important;
-    color: rgb(16, 16, 16) !important;
+    background-color: #2095b0 !important;
     font-size: 13px !important;
-    font-weight:550 !important;
+ 
 }
 .__project_title{
     color: #ff3b3f !important;
@@ -36,4 +36,21 @@ body{
     border: none !important;
     padding-bottom: 8px !important;
 }
- 
+ @media (min-width: 320px) and (max-width: 480px) {
+   .card{
+    width:90% !important;
+    margin-left: 5%;
+   }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+@media (min-width:  769px) and (max-width: 1024px) {
+
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+}
+@media (min-width: 1201px)  {
+
+}
