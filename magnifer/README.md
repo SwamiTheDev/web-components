@@ -31,3 +31,5 @@ If you enjoy my open source projects and want to support my work, you can buy me
 🙏 Thank you for your support and enjoy exploring the Magnifier project! 🙏
 
 #Magnifier #FrontEnd #UI #WebDevelopment #OpenSource #GitHub #Portfolio #Support #WebDesign #Animations #Responsive #HTML #CSS #JavaScript #jQuery #ZoomIn #VisualExperience #swamithedev #swaminathanselvam
+
+
